@@ -29836,7 +29836,7 @@ return new A.Fc(A.u(s,s),A.u(s,s),A.u(s,s),["002","127","009","007","008","010",
 A.Fc.prototype={
 ok(){var s=0,r=A.a7(t.z),q=this,p,o
 var $async$ok=A.a8(function(a,b){if(a===1)return A.a4(b,r)
-while(true)switch(s){case 0:o=" "+q.fy+" "+A.kj(new A.b6(Date.now(),!1))+"  "+(A.qV(new A.b6(Date.now(),!1))===10)+"  "
+while(true)switch(s){case 0:o="------ "+q.fy+" "+A.kj(new A.b6(Date.now(),!1))+"  "+A.qV(new A.b6(Date.now(),!1))+"  "
 if(!q.fy)p=(A.kj(new A.b6(Date.now(),!1))===8||A.kj(new A.b6(Date.now(),!1))===16)&&A.qV(new A.b6(Date.now(),!1))===10
 else p=!1
 if(!p)p=!q.fy&&A.kj(new A.b6(Date.now(),!1))===23&&A.qV(new A.b6(Date.now(),!1))===50
@@ -29876,7 +29876,7 @@ for(s=n.Q,r=n.cy,q=t.z,p=n.ch,o=0;o<210;++o){s.l(0,r[o],A.u(q,q))
 p.l(0,r[o],A.u(q,q))}n.bF()
 n.ok()
 A.a7A(A.bW(0,0,60),new A.Y9(n))},
-R(a,b){var s,r=null,q=A.a5U(r,!1,new A.Y8(this)),p=t.w,o=b.a4(p).f,n=A.aR(146,64,181,216),m=b.a4(p).f
+R(a,b){var s,r=null,q=A.a5U(r,!1,new A.Y8(this)),p=t.w,o=b.a4(p).f,n=A.aR(146,64,216,77),m=b.a4(p).f
 p=b.a4(p).f
 s=t.fQ
 s=A.a2u(A.a([A.a2u(A.a([A.M4(r,A.a2u(A.a([new A.Eg("\n 0 \n "+A.c(this.dx),r,A.mT(r,r,r,r,r,r,r,r,r,r,r,30,r,r,r,r,!0,r,r,r,r,r,r,r,r),r)],s),B.N6),r,new A.he(n,r,r,new A.ch(B.P,B.P,new A.bp(20,20),new A.bp(20,20)),r,r,B.cr),r,r,new A.bL(0,p.a.b/50,0,0),m.a.a)],s),B.h5)],s),B.h5)
