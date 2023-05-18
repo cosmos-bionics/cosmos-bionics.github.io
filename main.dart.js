@@ -44095,69 +44095,69 @@ s=2
 return A.W(A.pW("ships/live").a0(new A.a23(q),t.P),$async$ec)
 case 2:return A.M(null,r)}})
 return A.N($async$ec,r)},
-V(b1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=null,a4="name",a5="PM",a6="AM",a7=t.w,a8=b1.N(a7).f,a9=A.vW(a3,a3,a3,B.iw,a3,a3,a3),b0=a2.f
-b0.toString
-b0=a2.w[A.z6(A.f8(b0,!1))]
+V(a9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=null,a4="name",a5=t.w,a6=a9.N(a5).f,a7=A.vW(a3,a3,a3,B.iw,a3,a3,a3),a8=a2.f
+a8.toString
+a8=a2.w[A.z6(A.f8(a8,!1))]
 s=a2.f
 s.toString
 s=A.f8(s,!1)
 r=a2.f
 r.toString
 q=t.W
-r=A.a([new A.fA(B.jy,a9,a3),new A.fA(B.wV,A.iV(A.a([A.d9(a2.dg(" \u064a\u0648\u0645 "+b0+" \u0627\u0644\u0645\u0648\u0627\u0641\u0642 "+A.iQ(s)+" / "+A.cU(A.f8(r,!1))+" / "+A.iR(new A.bk(Date.now(),!1))),A.kA(a3,a3,B.k,a3,a3,a3,a3,a3,"cairo",a3,a3,b1.N(a7).f.a.b/40,a3,a3,B.x,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3),B.C,a3,a3),A.d9(" \u0628\u064a\u0627\u0646 \u0631\u0635\u064a\u0641 \u0627\u0644\u0645\u064a\u0646\u0627\u0621",A.kA(a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,b1.N(a7).f.a.b/40,a3,a3,B.x,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3),B.C,a3,a3)],q),B.oV,B.ae),a3)],q)
-for(p=0;p<J.aQ(a2.d);++p){a9=a2.d
-b0=J.bg(a9)
-if(b0.i(a9,A.k(J.d2(b0.ga1(a9))[p]))==null)a9=B.i4
-else{a9=A.vW(a3,a3,a3,B.iw,a3,a3,b1.N(a7).f.a.a/2.8)
-b0=a2.d
-s=J.bg(b0)
-b0=A.k(J.aC(s.i(b0,J.d2(s.ga1(b0))[p]),a4))
-s=b1.N(a7).f
-b0=A.d9("\u0627\u0644\u0628\u0627\u062e\u0631\u0629  "+b0,new A.m(!0,a3,a3,a3,a3,a3,s.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
+r=A.a([new A.fA(B.jy,a7,a3),new A.fA(B.wV,A.iV(A.a([A.d9(a2.dg(" \u064a\u0648\u0645 "+a8+" \u0627\u0644\u0645\u0648\u0627\u0641\u0642 "+A.iQ(s)+" / "+A.cU(A.f8(r,!1))+" / "+A.iR(new A.bk(Date.now(),!1))),A.kA(a3,a3,B.k,a3,a3,a3,a3,a3,"cairo",a3,a3,a9.N(a5).f.a.b/40,a3,a3,B.x,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3),B.C,a3,a3),A.d9(" \u0628\u064a\u0627\u0646 \u0631\u0635\u064a\u0641 \u0627\u0644\u0645\u064a\u0646\u0627\u0621",A.kA(a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a9.N(a5).f.a.b/40,a3,a3,B.x,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3),B.C,a3,a3)],q),B.oV,B.ae),a3)],q)
+for(p=0;p<J.aQ(a2.d);++p){a7=a2.d
+a8=J.bg(a7)
+if(a8.i(a7,A.k(J.d2(a8.ga1(a7))[p]))==null)a7=B.i4
+else{a7=A.vW(a3,a3,a3,B.iw,a3,a3,a9.N(a5).f.a.a/2.8)
+a8=a2.d
+s=J.bg(a8)
+a8=A.k(J.aC(s.i(a8,J.d2(s.ga1(a8))[p]),a4))
+s=a9.N(a5).f
+a8=A.d9("\u0627\u0644\u0628\u0627\u062e\u0631\u0629  "+a8,new A.m(!0,a3,a3,a3,a3,a3,s.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
 s=a2.d
 o=J.bg(s)
 s=a2.dg("\u0648\u0632\u0646 \u0627\u0644\u0628\u0627\u062e\u0631\u0629 /  "+A.k(J.aC(o.i(s,J.d2(o.ga1(s))[p]),"weight"))+" \u0637\u0646 ")
-o=b1.N(a7).f
+o=a9.N(a5).f
 s=A.d9(s,new A.m(!0,a3,a3,a3,a3,a3,o.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
 o=a2.d
 n=J.bg(o)
 o=a2.dg("\u0631\u0635\u064a\u0641 /  "+A.k(J.aC(n.i(o,J.d2(n.ga1(o))[p]),"sideWalk"))+"  ")
-n=b1.N(a7).f
+n=a9.N(a5).f
 o=A.d9(o,new A.m(!0,a3,a3,a3,a3,a3,n.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
-n=b1.N(a7).f
-m=b1.N(a7).f
+n=a9.N(a5).f
+m=a9.N(a5).f
 l=a2.dg(" \u062e\u0631\u0648\u062c ")
-k=b1.N(a7).f
+k=a9.N(a5).f
 l=A.d9(l,new A.m(!0,a3,a3,a3,a3,a3,k.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
 k=a2.e.i(0,"exit")
 j=a2.d
 i=J.bg(j)
 j=a2.dg(""+k.i(0,J.aC(i.i(j,J.d2(i.ga1(j))[p]),a4)).a)
-i=b1.N(a7).f
+i=a9.N(a5).f
 l=A.iV(A.a([l,A.d9(j,new A.m(!0,a3,a3,a3,a3,a3,i.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)],q),B.b5,B.ae)
-k=b1.N(a7).f
+k=a9.N(a5).f
 j=a2.dg(" \u062a\u062d\u062a \u0627\u0644\u062a\u062d\u0645\u064a\u0644 ")
-i=b1.N(a7).f
+i=a9.N(a5).f
 j=A.d9(j,new A.m(!0,a3,a3,a3,a3,a3,i.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
 i=a2.e.i(0,"loading")
 h=a2.d
 g=J.bg(h)
 h=a2.dg(""+i.i(0,J.aC(g.i(h,J.d2(g.ga1(h))[p]),a4)).a)
-g=b1.N(a7).f
+g=a9.N(a5).f
 j=A.iV(A.a([j,A.d9(h,new A.m(!0,a3,a3,a3,a3,a3,g.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)],q),B.b5,B.ae)
-i=b1.N(a7).f
+i=a9.N(a5).f
 h=a2.dg(" \u0627\u0646\u062a\u0638\u0627\u0631 ")
-g=b1.N(a7).f
+g=a9.N(a5).f
 h=A.d9(h,new A.m(!0,a3,a3,a3,a3,a3,g.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
 g=a2.e.i(0,"waiting")
 f=a2.d
 e=J.bg(f)
 f=a2.dg(""+g.i(0,J.aC(e.i(f,J.d2(e.ga1(f))[p]),a4)).a)
-e=b1.N(a7).f
+e=a9.N(a5).f
 h=A.iV(A.a([h,A.d9(f,new A.m(!0,a3,a3,a3,a3,a3,e.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)],q),B.b5,B.ae)
-g=b1.N(a7).f
+g=a9.N(a5).f
 f=a2.dg(" \u0633\u064a\u0627\u0631\u0627\u062a \u0627\u062c\u0645\u0627\u0644\u0649 ")
-e=b1.N(a7).f
+e=a9.N(a5).f
 f=A.d9(f,new A.m(!0,B.bx,a3,a3,a3,a3,e.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)
 e=a2.e.i(0,"exit")
 d=a2.d
@@ -44171,18 +44171,18 @@ b=a2.e.i(0,"waiting")
 c=a2.d
 a=J.bg(c)
 c=a2.dg(""+(d+e+b.i(0,J.aC(a.i(c,J.d2(a.ga1(c))[p]),a4)).a))
-a=b1.N(a7).f
+a=a9.N(a5).f
 m=A.Jk(A.a([new A.e7(m.a.a/10,a3,l,a3),new A.e7(k.a.a/10,a3,j,a3),new A.e7(i.a.a/10,a3,h,a3),new A.e7(g.a.a/10,a3,A.iV(A.a([f,A.d9(c,new A.m(!0,B.bx,a3,a3,a3,a3,a.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)],q),B.b5,B.ae),a3)],q),B.c7,B.bF)
-l=b1.N(a7).f
-k=b1.N(a7).f
+l=a9.N(a5).f
+k=a9.N(a5).f
 k=A.iV(A.a([A.d9(" \u0627\u0644\u0633\u0627\u0639\u0629 ",new A.m(!0,B.bx,a3,a3,a3,a3,k.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,B.F,1)],q),B.b5,B.ae)
-j=b1.N(a7).f
+j=a9.N(a5).f
 a0=A.Td((""+A.fD(new A.bk(Date.now(),!1))+":"+A.Tb(new A.bk(Date.now(),!1))).split(":")[0],a3)
 a0.toString
-i=a0>=12?a5:a6
-i=A.ca(" "+i,a5,"\u0645\u0633\u0627\u0621\u064b")
-i=a2.dg(A.ca(i,a6,"\u0635\u0628\u0627\u062d\u0627\u064b"))
-h=b1.N(a7).f
+i=a0>=12?"  PM  ":"  AM  "
+i=A.ca(" "+i,"PM","\u0645\u0633\u0627\u0621\u064b")
+i=a2.dg(A.ca(i,"AM","\u0635\u0628\u0627\u062d\u0627\u064b"))
+h=a9.N(a5).f
 i=A.d9(i,new A.m(!0,B.bx,a3,a3,a3,a3,h.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,a3,1)
 a1=(""+A.fD(new A.bk(Date.now(),!1))+":"+A.Tb(new A.bk(Date.now(),!1))).split(":")
 a0=A.Td(a1[0],a3)
@@ -44190,11 +44190,11 @@ a0.toString
 if(a0>12)h=B.f.cj(a0,12)
 else h=a0
 g=A.k(a1[1])
-f=a0>=12?a5:a6
-h=A.ca(""+h+":"+g+" "+f,a5,"")
-h=a2.dg(A.ca(h,a6,""))
-g=b1.N(a7).f
-a9=A.Jk(A.a([new A.fA(B.jy,a9,a3),b0,s,o,new A.e7(n.a.a/3,a3,A.iV(A.a([m,A.Jk(A.a([new A.e7(l.a.a/10,a3,k,a3),new A.e7(j.a.a/10,a3,A.iV(A.a([i,A.d9(h,new A.m(!0,B.bx,a3,a3,a3,a3,g.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,a3,1)],q),B.b5,B.ae),a3)],q),B.c7,B.bF)],q),B.oV,B.ae),a3)],q),B.jo,B.bF)}r.push(a9)}return new A.qw(new A.mp(A.vW(a3,new A.fA(B.wU,A.Jk(r,B.c7,B.bF),a3),B.h,a3,a3,a3,a8.a.a/2.8),a2.r,a3,t.pV),a3)},
+f=a0>=12?"PM":"AM"
+h=A.ca(""+h+":  "+g+"   "+f,"PM","")
+h=a2.dg(A.ca(h,"AM",""))
+g=a9.N(a5).f
+a7=A.Jk(A.a([new A.fA(B.jy,a7,a3),a8,s,o,new A.e7(n.a.a/3,a3,A.iV(A.a([m,A.Jk(A.a([new A.e7(l.a.a/10,a3,k,a3),new A.e7(j.a.a/10,a3,A.iV(A.a([i,A.d9(h,new A.m(!0,B.bx,a3,a3,a3,a3,g.a.b/50,B.x,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),B.C,a3,1)],q),B.b5,B.ae),a3)],q),B.c7,B.bF)],q),B.oV,B.ae),a3)],q),B.jo,B.bF)}r.push(a7)}return new A.qw(new A.mp(A.vW(a3,new A.fA(B.wU,A.Jk(r,B.c7,B.bF),a3),B.h,a3,a3,a3,a6.a.a/2.8),a2.r,a3,t.pV),a3)},
 iq(a){var s=0,r=A.O(t.z),q=this
 var $async$iq=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:q.r.iq(0).a0(new A.a1Y(q),t.P).ho(new A.a1Z(q))
