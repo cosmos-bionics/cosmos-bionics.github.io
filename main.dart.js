@@ -44601,12 +44601,12 @@ return A.C($async$k5,r)},
 c2(a,b){return this.Bm(a,b)},
 Bm(a,b){var s=0,r=A.D(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$c2=A.E(function(c,d){if(c===1)return A.A(d,r)
-while(true)switch(s){case 0:n=A.a6w("image","png",null)
+while(true)switch(s){case 0:n=A.a6w("image","jpeg",null)
 m=A.aiX(A.a([a],t.uw),t.eH)
 l=A.Hg(null,t.E4)
 k=t.N
 j=t.z
-i=A.agQ(A.aB(["file",new A.iL(a.length,"test.png",l,n,m)],k,j))
+i=A.agQ(A.aB(["file",new A.iL(a.length,"test.jpeg",l,n,m)],k,j))
 n=i.c
 l=t.AT
 n.push(new A.ak("chatId","2"+b+"@c.us",l))
@@ -48337,7 +48337,7 @@ B.Ax=new A.m4(2,"center")
 B.aF=new A.m4(3,"spaceBetween")
 B.b9=new A.yf(0,"min")
 B.N=new A.yf(1,"max")
-B.Ay=new A.ak("fileName","ORBYTE.png",t.AT)
+B.Ay=new A.ak("fileName","ORBYTE.jpeg",t.AT)
 B.xw=A.a(s(["BU","DD","FX","TP","YD","ZR"]),t.s)
 B.ag=new A.b3(6,{BU:"MM",DD:"DE",FX:"FR",TP:"TL",YD:"YE",ZR:"CD"},B.xw,t.hD)
 B.jP=A.a(s(["*","+","-",".","/","0","1","2","3","4","5","6","7","8","9","Alt","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","Clear","Control","Delete","End","Enter","Home","Insert","Meta","PageDown","PageUp","Shift"]),t.s)
