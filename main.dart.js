@@ -54303,10 +54303,7 @@ for(s=0;s<11;++s){r=B.Ay[s]
 q=B.zS[s]
 a=A.dT(a,r,q)}return a}}
 A.a7W.prototype={
-$1(a){var s
-if(A.dH(new A.aG(Date.now(),!1))!==59)s=A.dH(new A.aG(Date.now(),!1))===29&&A.af9(new A.aG(Date.now(),!1))===58
-else s=!0
-if(s)window.location.reload()},
+$1(a){if((A.dH(new A.aG(Date.now(),!1))===59||A.dH(new A.aG(Date.now(),!1))===29)&&A.af9(new A.aG(Date.now(),!1))===58)window.location.reload()},
 $S:102}
 A.a7V.prototype={
 $1(a){var s=0,r=A.L(t.P),q=this,p
