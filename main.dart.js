@@ -54110,7 +54110,7 @@ s=2
 return A.V(A.rX("ships/live").a5(new A.a7V(q),t.P),$async$fS)
 case 2:return A.J(null,r)}})
 return A.K($async$fS,r)},
-U(c0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6=this,a7=null,a8="name",a9=" \u062a\u062d\u062a \u0627\u0644\u062a\u062d\u0645\u064a\u0644 ",b0=" \u0627\u0646\u062a\u0638\u0627\u0631 ( \u0645\u062c\u0645\u0639 ) ",b1=" \u0633\u064a\u0627\u0631\u0627\u062a \u0627\u062c\u0645\u0627\u0644\u0649 ",b2="loadingO",b3="loadingB",b4="waitingO",b5="waitingB",b6=t.w,b7=c0.F(b6).f,b8=t.nA,b9=A.a([new A.eW(B.d3,A.mF(a7,a7,a7,B.cS,a7,a7,a7),a7),new A.eW(B.yC,A.eu(A.a([A.bx(a6.bB(" \u064a\u0648\u0645 "+a6.Ts()+" \u0627\u0644\u0645\u0648\u0627\u0641\u0642 "+a6.Do()),A.lI(a7,a7,B.k,a7,a7,a7,a7,a7,"cairo",a7,a7,c0.F(b6).f.a.b/40,a7,a7,B.o,a7,a7,!0,a7,a7,a7,a7,a7,a7,a7,a7),B.q,a7,a7),A.bx(" \u0628\u064a\u0627\u0646 \u0631\u0635\u064a\u0641 \u0627\u0644\u0645\u064a\u0646\u0627\u0621",A.lI(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,c0.F(b6).f.a.b/40,a7,a7,B.o,a7,a7,!0,a7,a7,a7,a7,a7,a7,a7,a7),B.q,a7,a7)],b8),B.bc,B.W),a7)],b8)
+U(c0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6=this,a7=null,a8="name",a9=" \u062a\u062d\u062a \u0627\u0644\u062a\u062d\u0645\u064a\u0644 ",b0=" \u0627\u0646\u062a\u0638\u0627\u0631 ",b1=" \u0633\u064a\u0627\u0631\u0627\u062a \u0627\u062c\u0645\u0627\u0644\u0649 ",b2="loadingO",b3="loadingB",b4="waitingO",b5="waitingB",b6=t.w,b7=c0.F(b6).f,b8=t.nA,b9=A.a([new A.eW(B.d3,A.mF(a7,a7,a7,B.cS,a7,a7,a7),a7),new A.eW(B.yC,A.eu(A.a([A.bx(a6.bB(" \u064a\u0648\u0645 "+a6.Ts()+" \u0627\u0644\u0645\u0648\u0627\u0641\u0642 "+a6.Do()),A.lI(a7,a7,B.k,a7,a7,a7,a7,a7,"cairo",a7,a7,c0.F(b6).f.a.b/40,a7,a7,B.o,a7,a7,!0,a7,a7,a7,a7,a7,a7,a7,a7),B.q,a7,a7),A.bx(" \u0628\u064a\u0627\u0646 \u0631\u0635\u064a\u0641 \u0627\u0644\u0645\u064a\u0646\u0627\u0621",A.lI(a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,a7,c0.F(b6).f.a.b/40,a7,a7,B.o,a7,a7,!0,a7,a7,a7,a7,a7,a7,a7,a7),B.q,a7,a7)],b8),B.bc,B.W),a7)],b8)
 for(s=a6.d,r=A.o(s).j("ai<1>"),q=r.j("n.E"),p=0;p<s.a;++p){if(s.h(0,A.i(A.a8(new A.ai(s,r),!0,q)[p]))==null)o=B.jF
 else{o=A.mF(a7,a7,a7,B.cS,a7,a7,c0.F(b6).f.a.a/2.8)
 n=A.i(J.a2(s.h(0,A.a8(new A.ai(s,r),!0,q)[p]),a8))
@@ -54353,7 +54353,7 @@ J.bN(i.e.h(0,"loadingO"),a0.h(a,"name"),A.u(p,p))
 J.bN(i.e.h(0,"exitO"),a0.h(a,"name"),A.u(p,p))
 for(a1=0;a1<e.gm(o);++a1){a2=e.h(o,J.fc(e.gad(o))[a1])
 a3=J.al(a2)
-if(J.h(a3.h(a2,"harbor"),a0.h(a,"harbor"))&&J.h(a3.h(a2,"status"),"waiting")){J.bN(J.a2(i.e.h(0,"waiting"),a0.h(a,"name")),J.fc(e.gad(o))[a1],a2)
+if(J.h(a3.h(a2,"status"),"waiting")&&a3.h(a2,"selectedShip")!=null&&J.h(a3.h(a2,"selectedShip"),a0.h(a,"name"))){J.bN(J.a2(i.e.h(0,"waiting"),a0.h(a,"name")),J.fc(e.gad(o))[a1],a2)
 a3=J.h(a3.h(a2,"site"),"\u0627\u0647\u0627\u0644\u0649")
 a4=i.e
 if(a3)J.bN(J.a2(a4.h(0,"waitingO"),a0.h(a,"name")),J.fc(e.gad(o))[a1],a2)
