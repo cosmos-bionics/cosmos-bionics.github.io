@@ -111936,7 +111936,7 @@ $S:6}
 A.agP.prototype={
 $1(a1){var s=0,r=A.A(t.P),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
 var $async$$1=A.w(function(a2,a3){if(a2===1)return A.x(a3,r)
-while(true)switch(s){case 0:a0=["CANCELED","EXPIRED","FAILED"]
+while(true)switch(s){case 0:a0=["CANCELED","EXPIRED","FAILED","FAILD"]
 if(a1==null){q=t.z
 p=A.h(q,q)}else p=a1
 q=J.Z(p),o=t.P,n=0
@@ -111964,47 +111964,50 @@ case 4:return A.y(null,r)}})
 return A.z($async$$1,r)},
 $S:5}
 A.agO.prototype={
-$1(a){var s=0,r=A.A(t.P),q=this,p,o,n,m,l
+$1(a){var s=0,r=A.A(t.P),q=this,p,o,n,m,l,k
 var $async$$1=A.w(function(b,c){if(b===1)return A.x(c,r)
-while(true)switch(s){case 0:l=q.b
-s=B.b.C(q.a,l)?2:4
+while(true)switch(s){case 0:k=q.b
+s=B.b.C(q.a,k)?2:4
 break
-case 2:s=l==="FAILED"?5:6
+case 2:s=k==="FAILED"||k==="FAILD"?5:7
 break
-case 5:p=q.c
-o=q.d
-n=A.yb(q.e)
+case 5:k=q.c
+p=q.d
+o=A.yb(q.e)
+n=A.jw("dd-MM-yyyy",null).hD(o)
+o=q.x
+if(o==null)o=""
 m=t.z
-s=7
-return A.E(A.pY(u.Y+p+"/History",A.c([o,A.c(["date",A.jw("dd-MM-yyyy",null).hD(n),"parentCode",p,"parentName",q.f,"serial",o,"status",l.toLowerCase(),"studentCode",q.r,"studentName",a,"value",q.w,"faildReason",q.x,"type",q.y],t.N,m)],m,m)).a8(new A.agK(q.z),t.P),$async$$1)
-case 7:case 6:s=3
+s=8
+return A.E(A.pY(u.Y+k+"/History",A.c([p,A.c(["date",n,"parentCode",k,"parentName",q.f,"serial",p,"status","FAILED".toLowerCase(),"studentCode",q.r,"studentName",a,"value",q.w,"faildReason",o,"type",q.y],t.N,m)],m,m)).a8(new A.agK(q.z),t.P),$async$$1)
+case 8:s=6
 break
-case 4:s=l==="EXPIRED"?8:10
+case 7:s=k==="EXPIRED"?9:10
 break
-case 8:p=q.c
+case 9:p=q.c
 o=q.d
-n=A.yb(q.e)
-m=t.z
+m=A.yb(q.e)
+l=t.z
 s=11
-return A.E(A.pY(u.Y+p+"/History",A.c([o,A.c(["date",A.jw("dd-MM-yyyy",null).hD(n),"parentCode",p,"parentName",q.f,"serial",o,"status",l.toLowerCase(),"studentCode",q.r,"studentName",a,"value",q.w,"faildReason","EXPIRED","type",q.y],t.N,m)],m,m)).a8(new A.agL(q.z),t.P),$async$$1)
-case 11:s=9
+return A.E(A.pY(u.Y+p+"/History",A.c([o,A.c(["date",A.jw("dd-MM-yyyy",null).hD(m),"parentCode",p,"parentName",q.f,"serial",o,"status",k.toLowerCase(),"studentCode",q.r,"studentName",a,"value",q.w,"faildReason","EXPIRED","type",q.y],t.N,l)],l,l)).a8(new A.agL(q.z),t.P),$async$$1)
+case 11:case 10:case 6:s=3
 break
-case 10:s=l==="NEW"?12:14
+case 4:s=k==="NEW"?12:14
 break
 case 12:p=q.c
 o=q.d
-n=A.yb(q.e)
-m=t.z
+m=A.yb(q.e)
+l=t.z
 s=15
-return A.E(A.pY(u.Y+p+"/History",A.c([o,A.c(["date",A.jw("dd-MM-yyyy",null).hD(n),"parentCode",p,"parentName",q.f,"serial",o,"status",l.toLowerCase(),"studentCode",q.r,"studentName",a,"value",q.w,"type",q.y],t.N,m)],m,m)).a8(new A.agM(q.z),t.P),$async$$1)
+return A.E(A.pY(u.Y+p+"/History",A.c([o,A.c(["date",A.jw("dd-MM-yyyy",null).hD(m),"parentCode",p,"parentName",q.f,"serial",o,"status",k.toLowerCase(),"studentCode",q.r,"studentName",a,"value",q.w,"type",q.y],t.N,l)],l,l)).a8(new A.agM(q.z),t.P),$async$$1)
 case 15:s=13
 break
-case 14:s=l==="PAID"?16:17
+case 14:s=k==="PAID"?16:17
 break
 case 16:p=q.r
 s=18
-return A.E(A.EC(u.g+p+"/06").a8(new A.agN(p,q.w,q.e,q.d,q.c,q.f,l,a,q.y,q.Q,q.z),t.P),$async$$1)
-case 18:case 17:case 13:case 9:case 3:return A.y(null,r)}})
+return A.E(A.EC(u.g+p+"/06").a8(new A.agN(p,q.w,q.e,q.d,q.c,q.f,k,a,q.y,q.Q,q.z),t.P),$async$$1)
+case 18:case 17:case 13:case 3:return A.y(null,r)}})
 return A.z($async$$1,r)},
 $S:5}
 A.agK.prototype={
