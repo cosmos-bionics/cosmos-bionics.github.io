@@ -112239,7 +112239,7 @@ e=q.y
 d=t.N
 c=t.z
 s=2
-return A.C(A.pY(o+"Cashier/Staff/CARD/"+n,A.c([n,A.c(["data",A.c(["date",A.ia("dd-MM-yyyy",null).h0(l),"parentCode",k,"parentName",j,"serial",n,"status",i.toLowerCase(),"studentCode",h,"studentName",g,"value",f,"type",e],d,c),"user","CARD*CARD","userCode","CARD"],d,t.K)],c,c)).a6(new A.agJ(p,k,n,m,j,i,h,g,f,e,q.z,q.Q,q.as),t.P),$async$$1)
+return A.C(A.pY(o+"Cashier/Staff/CARD",A.c([n,A.c(["data",A.c(["date",A.ia("dd-MM-yyyy",null).h0(l),"parentCode",k,"parentName",j,"serial",n,"status",i.toLowerCase(),"studentCode",h,"studentName",g,"value",f,"type",e],d,c),"user","CARD*CARD","userCode","CARD"],d,t.K)],c,c)).a6(new A.agJ(p,k,n,m,j,i,h,g,f,e,q.z,q.Q,q.as),t.P),$async$$1)
 case 2:return A.y(null,r)}})
 return A.z($async$$1,r)},
 $S:4}
